@@ -1,25 +1,25 @@
 @font-face {
     font-family: Univers;
-    src: url(UniversLTStd.otf);
+    src: url(data/UniversLTStd.otf);
 }
 
 @font-face {
     font-family: UniversBoldEx;
-    src: url(UniversLTStd-BoldEx.otf);
+    src: url(data/UniversLTStd-BoldEx.otf);
     font-weight: bold;
     font-stretch: extra-expanded;
 }
 
 @font-face {
     font-family: UniversLight;
-    src: url(UniversLTStd-Light.otf);
+    src: url(data/UniversLTStd-Light.otf);
     font-weight: bold;
     font-stretch: extra-expanded;
 }
 
 @font-face {
     font-family: UniversCyr;
-    src: url(UniversLTCYR-55Roman.ttf);
+    src: url(data/UniversLTCYR-55Roman.ttf);
 }
 
 html {
@@ -29,7 +29,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: url(noise.jpg);
+    background: url(data/noise.jpg);
     animation: animate 50.0s linear infinite;    
 }
 
